@@ -1,0 +1,92 @@
+/* General Markdown Styles */
+@import "_variables";
+
+.markdown {
+  blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.4;
+    color: rgba(0,0,0,0.6);
+    padding-left: 50px;
+    font-family: 'Raleway';
+    margin: 50px 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+  }
+
+  .header-link {
+    font-size: 0.7em;
+    box-shadow: none;
+    border-bottom: none;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  .alert-box {
+    padding: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+
+    i {
+      margin-right: 15px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: $link;
+      border-bottom: none;
+      box-shadow: none;
+      &:hover {
+        border-bottom: 2px solid $link;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .info {
+    @extend .alert-box;
+    background: $info;
+  }
+
+  .warning {
+    @extend .alert-box;
+    background: $warning;
+  }
+
+  .tip {
+    @extend .alert-box;
+    background: $success;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  a {
+    border-bottom: 2px solid $info;
+    text-decoration: none;
+    transition: box-shadow ease 160ms;
+    box-shadow: inset 0 -9px 0 rgb(238, 251, 255);
+    color: black;
+
+    &:hover {
+      box-shadow: inset 0 -1.2em 0 rgb(207, 243, 255);
+    }
+  }
+
+  .embed-responsive-item {
+    width: 100%;
+    height: 600px;
+  }
+}
