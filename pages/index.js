@@ -19,15 +19,15 @@ export default class Index extends React.Component {
                     meta={[
                         {
                             "name"   : "description",
-                            "content": "Rn | Experimentum solite lixa ad neuter epos."
+                            "content": "Newsletter | Experimentum solite lixa ad neuter epos."
                         },
                         {"name": "keywords", "content": "Programming, blog, lifestyle design, React, Redux"},
                     ]}
                 />
                 <Flex flexColumn align="center">
-                    <h1 className="fade-in" style={{fontSize: '3em'}}> Experimentum solite lixa </h1>
+                    <h1 className="fade-in" style={{fontSize: '3em'}}> Newsletter </h1>
                     <p>
-                        Nunquam gratia compater est seychelles deuss trabem, tanquam azureus zirbus.
+                        Though, idea, love, life.
                     </p>
 
                     <Box mt={3}>
