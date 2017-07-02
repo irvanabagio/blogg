@@ -11,7 +11,7 @@ class AboutIndex extends Component {
     render() {
         return (
             <Flex flexColumn align="center">
-                <Helmet title="Rn | About"/>
+                <Helmet title="Newsletter | About"/>
 
                 <h1 className="fade-in">About.</h1>
                 {/*<p>And you don't know me... yet.</p>*/}

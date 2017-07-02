@@ -38,7 +38,7 @@ export default class Index extends React.Component {
                     </Box>
 
                     <Box my={2} flex flexColumn align="center">
-                        <p>Join the monthly newsletter.</p>
+                        <p>Join the newsletter.</p>
                         <MailchimpForm inline/>
                     </Box>
                 </Flex>
