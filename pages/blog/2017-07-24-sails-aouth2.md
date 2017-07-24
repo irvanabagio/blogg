@@ -8,13 +8,13 @@ description: "Sails oauth2"
 featured: false
 ---
 
-## Start application
+1. Start application
 
 ```bash
 sails lift
 ```
 
-## Start server for trustedClient.js and untrustedClient.js (for example)
+2. Start server for trustedClient.js and untrustedClient.js (for example)
 
 ```bash
 cd examples
@@ -28,12 +28,12 @@ node trustedClient.js
 node untrustedClient.js
 ```
 
-## Authorization code grant
+3. Authorization code grant
 
 ```bash
 http://localhost:81/oauth/authorize?client_id=YOOS1PK7I5&response_type=code&redirect_uri=http://localhost:1338&scope=http://localhost:81
 ```
-## Once the authorization code is received, exchange it against an access token with the following request
+4. Once the authorization code is received, exchange it against an access token with the following request
 
 ```bash
 curl -XPOST -d 'client_id=YOOS1PK7I5&client_secret=JvYTKjvlVsqIImNkeUeiZJbNsXWZ6s&grant_type=authorization_code&redirect_uri=http://localhost:1338&code=CODE' http://localhost:81/oauth/token
