@@ -17,7 +17,7 @@ This document are intended and mark as for personal use only.
 sails lift
 ```
 
-2. Start server for trustedClient.js and untrustedClient.js (for example)
+2. Start server for trustedClient.js (or untrustedClient.js for example, see *Footnotes*)
 
 ```bash
 cd examples
@@ -25,10 +25,6 @@ cd examples
 
 ```bash
 node trustedClient.js
-```
-
-```bash
-node untrustedClient.js
 ```
 
 3. Authorization code grant
@@ -44,7 +40,7 @@ curl -XPOST -d 'client_id=YOOS1PK7I5&client_secret=JvYTKjvlVsqIImNkeUeiZJbNsXWZ6
 
 Resource owner password flow (this flow is only available if the client is among the trusted clients)
 
-```bash
+```unix
 curl -XPOST "http://localhost:1337/oauth/token" -d "grant_type=password&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&username=USERNAME&password=PASSWORD"
 ```
 
@@ -62,15 +58,15 @@ Choose one of the method above, this returns an access token and a refresh token
 Once the access_token is retrieved, it needs to be passed in the Authorization header of each request to the API as in the following example:
 
 ```bash
-curl -H 'Authorization: Bearer ACCESS_TOKEN' -GET "http://localhost:1337/api/info
+curl -H 'Authorization: Bearer ACCESS_TOKEN' -GET "http://localhost:81/api/info
 ```
 
 5. Protected endpoint.
 
 Open `config/policies.js`, Apply 'oauthBearer' policies into controller action will make that resources oauth protected, example:
 
-```JavaScript
-SomeController: {
+```javascript
+InfoController: {
   'index': 'oauthBearer'
 }
 ```
