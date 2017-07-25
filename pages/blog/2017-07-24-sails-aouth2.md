@@ -7,6 +7,9 @@ tags: sails, oauth
 description: "Sails oauth2"
 featured: false
 ---
+::: info
+This document are intended and mark as for personal use only.
+:::
 
 1. Start application
 
@@ -60,6 +63,16 @@ Once the access_token is retrieved, it needs to be passed in the Authorization h
 
 ```bash
 curl -H 'Authorization: Bearer ACCESS_TOKEN' -GET "http://localhost:1337/api/info
+```
+
+5. Protected endpoint.
+
+Open `config/policies.js`, Apply 'oauthBearer' policies into controller action will make that resources oauth protected, example:
+
+```JavaScript
+SomeController: {
+  'index': 'oauthBearer'
+}
 ```
 
 
