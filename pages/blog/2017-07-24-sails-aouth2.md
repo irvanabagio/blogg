@@ -30,12 +30,12 @@ node trustedClient.js
 3. Authorization code grant
 
 ```bash
-http://localhost:81/oauth/authorize?client_id=YOOS1PK7I5&response_type=code&redirect_uri=http://localhost:1338&scope=http://localhost:81
+http://localhost:81/oauth/authorize?client_id=CLIENT_ID&response_type=code&redirect_uri=http://localhost:1338&scope=http://localhost:81
 ```
 4. Once the authorization code is received, exchange it against an access token with the following request
 
 ```bash
-curl -XPOST -d 'client_id=YOOS1PK7I5&client_secret=JvYTKjvlVsqIImNkeUeiZJbNsXWZ6s&grant_type=authorization_code&redirect_uri=http://localhost:1338&code=CODE' http://localhost:81/oauth/token
+curl -XPOST -d 'client_id=CLIENT_ID&client_secret=CLIENT_SECRET&grant_type=authorization_code&redirect_uri=http://localhost:1338&code=CODE' http://localhost:81/oauth/token
 ```
 
 Resource owner password flow (this flow is only available if the client is among the trusted clients)
