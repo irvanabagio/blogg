@@ -82,7 +82,7 @@ class MailchimpForm extends Component {
           />
         </Box>
         <Flex id="mc_embed_signup" flexColumn align="center" order={1}>
-          <h4>Want More? Get fresh articles, screencasts, and tutorials sent to your inbox.</h4>
+          <h4>Be an awesome subscriber to get random content sent to your inbox.</h4>
           <form 
             action={`//github.us15.list-manage.com/subscribe/post?u=57e07eadf440f4a018ede60df&amp;id=${id}`}
             method="post" 

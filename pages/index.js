@@ -27,15 +27,15 @@ export default class Index extends React.Component {
                 <Flex flexColumn align="center">
                     <h1 className="fade-in" style={{fontSize: '3em'}}> Newsletter </h1>
                     <p>
-                        Though, idea, love, life.
+                        A bulletin issued periodically to the members of a society, business, or organization.
                     </p>
 
-                    <Box mt={3}>
+                    {/* <Box mt={3}>
                         <Avatar
                             src={Octogit}
                             alt="Github"
                         />
-                    </Box>
+                    </Box> */}
 
                     <Box my={2} flex flexColumn align="center">
                         <p>Join the newsletter.</p>
@@ -49,13 +49,13 @@ export default class Index extends React.Component {
                      fontWeight: fonts.bold,
                      }}>New? Start Here</h2>*/}
 
-                    <HeaderLink to="about/">
+                    {/* <HeaderLink to="about/">
                         About
-                    </HeaderLink>
+                    </HeaderLink> */}
 
-                    <HeaderLink to="now/">
+                    {/* <HeaderLink to="now/">
                         Now
-                    </HeaderLink>
+                    </HeaderLink> */}
                 </Flex>
             </div>
         )

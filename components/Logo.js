@@ -12,7 +12,7 @@ function Logo({}) {
             fontFamily    : fonts.secondary,
             fontWeight    : fonts.bold,
         }}>
-            News <span style={{fontWeight: fonts.xThin, marginLeft: 5,}}>letter</span>
+            RN <span style={{fontWeight: fonts.xThin, marginLeft: 5,}}>Newsletter</span>
         </Link>
     );
 }
