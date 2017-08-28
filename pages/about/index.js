@@ -13,8 +13,7 @@ class AboutIndex extends Component {
             <Flex flexColumn align="center">
                 <Helmet title="Newsletter | About"/>
 
-                <h1 className="fade-in">About.</h1>
-                {/*<p>And you don't know me... yet.</p>*/}
+                <h1 className="fade-in">About</h1>
                 <Flex wrap justify="center" mb={3}>
                     <Box mx={2}>
                         <Avatar

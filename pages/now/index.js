@@ -9,7 +9,7 @@ class NowIndex extends Component {
         return (
             <Flex flexColumn align="center" justify="center" style={{height: '100%'}}>
                 <Helmet title="Newsletter | Now"/>
-                <h1 className="fade-in">Now.</h1>
+                <h1 className="fade-in">Now</h1>
 
                 <Flex style={{maxWidth: 650}} flexColumn>
                     <p>Doing nothing.</p>
