@@ -130,4 +130,6 @@ featured: false
 <li>Heintzelman, Chuck. <strong>Laravel 5.1 Beauty: Creating Beautiful Web Apps with Laravel 5.1.</strong> Kydala Enterprises. Jul 2015.</li>
 <li>Sturgeon, Phil & Bohill, Laura. <strong>Build APIs You Won't Hate: Everyone and Their Dog Wants an API, So You Should Probably Learn How to Build Them.</strong></li>
 <li>Malatesta, Francesco. <strong>Learning Laravel's Eloquent.</strong> Packt Publishing. Sep 2015.</li>
+<li>Clow, Marcus. <strong>Learn Angular 4 Fast: Over 70 Example Projects.</strong> CreateSpace Independent Publishing Platform. Jul 2017.</li>
+<li>Murray, Nate & Lerner, Ari & Coury, Felipe & Taborda, Carlos. <strong>Ng-Book: The Complete Book on Angular 4.</strong> Fullstack.io. Oct 2016.</li>
 </ol>
