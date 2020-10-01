@@ -33,7 +33,7 @@
     "toml-js"                          : "0.0.8",
     "typography"                       : "^0.13.0",
     "typography-plugin-code"           : "^0.13.0",
-    "underscore.string"                : "^3.3.4"
+    "underscore.string"                : "^3.3.5"
   },
   "devDependencies": {
     "babel-cli"          : "^6.18.0",
