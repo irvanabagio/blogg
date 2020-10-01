@@ -18,7 +18,7 @@ function Logo({}) {
             textTransform : 'uppercase',
             fontFamily    : fonts.secondary
         }}>
-            RN <span style={{fontWeight: fonts.xThin, marginLeft: 5,}}>Newsletter</span>
+            <span style={{fontWeight: fonts.xThin, marginLeft: 5,}}>Home</span>
         </Link>
     );
 }
