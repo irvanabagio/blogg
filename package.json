@@ -9,7 +9,7 @@
     "highlight.js"                     : "^9.6.0",
     "history"                          : "^2.0.2",
     "js-yaml"                          : "^3.6.0",
-    "markdown-it"                      : "^7.0.1",
+    "markdown-it"                      : "^12.3.2",
     "markdown-it-anchor"               : "^2.5.0",
     "markdown-it-attrs"                : "^0.8.0",
     "markdown-it-container"            : "^2.0.0",
